@@ -5,7 +5,6 @@
     overflow: hidden;
     text-align: justify;
 }
-
 .loadButton {
     margin-bottom: 20px;
 }
@@ -18,14 +17,25 @@
     color: #E5E5E5;
     cursor: pointer;
 }
-.childStyle{
-	padding-left:40px;
+
+.childStyle {
+    padding-left: 40px;
 }
-.grandchildStyle{
-	padding-left:80px;
+
+.grandchildStyle {
+    padding-left: 80px;
 }
+
 .headerText {
     font-style: normal;
     font-weight: 600;
     text-align: left;
+}
+
+.headingMenu {
+    font-weight: bold;
+    color: red !important;
+}
+.highlighted{
+    background-color:red;
 }
