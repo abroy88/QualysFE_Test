@@ -1,0 +1,31 @@
+.textStyle {
+    width: 100%;
+    margin-bottom: 30px;
+    max-height: 200px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.loadButton {
+    margin-bottom: 20px;
+}
+
+.hoverClass:hover {
+    background-color: #bfbfbf;
+}
+
+.fontColor:hover {
+    color: #E5E5E5;
+    cursor: pointer;
+}
+.childStyle{
+	padding-left:40px;
+}
+.grandchildStyle{
+	padding-left:80px;
+}
+.headerText {
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+}

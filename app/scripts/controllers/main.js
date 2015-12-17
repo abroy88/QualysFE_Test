@@ -8,10 +8,16 @@
  * Controller of the qualysApp
  */
 angular.module('qualysApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('MainCtrl', function($scope, $http) {
+
+        $scope.ParentArray = {};
+
+        $scope.loadComments = function() {
+            $http.get('../json/test.json').success(function(response) {
+                $scope.ParentArray = response;
+                console.log(response);
+            });
+
+        };
+
+    });
